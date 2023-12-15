@@ -1,6 +1,8 @@
 # FreshTunes
 ## CS 410 Final Project, Ben Svoboda
 ### 3 credit, undergraduate section
+### The link to the video presentation: https://youtu.be/y7hTe7zv9O0
+
 
 ### Abstract/Proposal
 FreshTunes aims to be a content-based recommender system that uses the Spotify API to generate a playlist of recommendations based off an existing user-curated playlist. Spotipy is a python library for the Spotify API that can be used to extract basic information from songs such as the artist, popularity, and release date. However, there are many more factors that go into creating a spotify playlist. Spotify playlists are often used to represent a certain "mood" or "feeling", which will is why the advanced audio features such as danceability, key, tempo & tempo will be integral to creating an effective playlist recommender system. The user will be allowed to input their playlist link & the desired output playlist length (x). Then, based on the audio features of the input playlist, the x most similar songs will be returned. Me and my friends are always looking for means of discovering  new music, especially when it's each other's. This app was created to aid us in our quest to expand our musical tastes & preferences.  
